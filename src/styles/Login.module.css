@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+  }
+
+  .LinkBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .a {
+    background-color: transparent !important;
+    transition: all 0.3s;
+  }
+
+  .a:hover {
+    background-color: rgba(187, 187, 187, 0.273);
+  }
+  
+  .loginBox {
+    background: rgba(255, 255, 255, 0.693);
+    backdrop-filter: blur(5px);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s;
+    margin-bottom: 2rem;
+  }
+  
+  .input:focus {
+    border-color: #a8edea;
+    outline: none;
+    box-shadow: 0 0 8px rgba(168, 237, 234, 0.5);
+  }
+  
+  /* Step 5: Button Styling */
+  .loginButton {
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .loginButton:hover {
+    background: linear-gradient(135deg, #fad0c4, #ff9a9e);
+    transform: translateY(-1px);
+    border-radius: 5px;
+  }
+  
+  .loginButton:active {
+    transform: translateY(0);
+  }
+
+  
+  /* Step 6: Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

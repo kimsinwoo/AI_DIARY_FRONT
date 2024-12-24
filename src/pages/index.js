@@ -1,0 +1,8 @@
+export {default as Main} from './MainPage'
+export {default as DiaryList} from './DiaryList'
+export {default as Mypage} from './Mypage'
+export {default as CreateDiary} from './CreateDiary'
+export {default as Intro} from './introduce'
+export {default as Login} from './Login'
+export {default as SignUp} from './SignUp'
+export {default as NotFound} from './NotFound.jsx'

@@ -1,0 +1,74 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.modalContent {
+    background: #fef6e4; 
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 500px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box; 
+}
+
+.modalContent>h2 {
+    text-align: center;
+}
+
+.input,
+.select,
+.textarea,
+.submitButton {
+    width: 100%;
+}
+
+.input,
+.select,
+.textarea {
+    padding: 12px;
+    border: 2px solid #ffe5d9; 
+    border-radius: 8px;
+    background-color: #ffffff; 
+    font-size: 14px;
+    color: #4d5061;
+    box-sizing: border-box; 
+}
+
+.textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submitButton {
+    padding: 12px; 
+    background-color: #a1cae2; 
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.submitButton:hover {
+    background-color: #7ab8d4; 
+}
+
+.submitButton:active {
+    background-color: #5586a2;
+}
+

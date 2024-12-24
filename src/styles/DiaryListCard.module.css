@@ -1,0 +1,40 @@
+.Card {
+  width: 90%;
+  height: 65px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  gap: 10px 0;
+  overflow: hidden;
+  align-items: center;
+}
+.Card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Card > div > h3 {
+  color: #333333;
+}
+.Card > div > p {
+  color: #666666;
+}
+p {
+  width: 90%;
+  word-wrap: break-word;
+}
+
+.title {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  left: 10%;
+}
+.Card> p {
+  position: relative;
+  left: 15%;
+}

@@ -1,0 +1,68 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg, #fbd3e9, #bbf0d1);
+}
+.startBox {
+  width: 90%;
+  height: 60%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.startBox > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;  
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 0;
+}
+.info_box {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.info_box > div {
+  width: 45%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.line1 {
+  width: 2px;
+  height: 70%;
+  background-color: #8383839c;
+}
+.line2 {
+  width: 2px;
+  height: 85%;
+  background-color: #8383839c;
+}
+.LinkBox {
+  width: 100%;
+}
+.LinkBox>div {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+}

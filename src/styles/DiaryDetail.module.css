@@ -1,0 +1,63 @@
+.diaryContentBox {
+    width: 90%;
+    height: 80vh;
+    background-color: rgba(232, 232, 232, 0.283);
+    margin: 0 auto;
+}
+
+.AI_Content {
+    padding: 20px;
+    max-width: 400px;
+    background-color: rgba(181, 181, 181, 0.277);
+    position: absolute;
+    top: 75%;
+    left: 75%;  
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.diaryContentBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.TopBox {
+    display: flex;
+    height: 38%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.Title {
+    width: 75%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    gap: 0 80px;
+    transform: translate(-50%, -50%);
+}
+
+.Title>div {
+    display: flex;
+    flex-flow: column;
+    gap: 20px 0;
+}
+
+.Title>div>span {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.content {
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 22px;    
+}

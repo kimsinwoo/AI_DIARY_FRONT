@@ -1,0 +1,50 @@
+.body {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.185);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+ul {
+  display: flex;
+  gap: 0 20px;
+  line-height: 5vh;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+}
+.a {
+  text-decoration: none;
+  color: rgb(59, 60, 78);
+  font-weight: 700;
+  padding: 0.8vh;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.a:hover {
+  background-color: rgba(218, 218, 218, 0.36);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+}
+
+.button {
+  color: rgb(59, 60, 78);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.8vh;
+  margin: -2.5vh 0;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: none;
+  backdrop-filter: blur(15px);
+}
+
+.button:hover {
+  background-color: rgb(218, 218, 218);
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+}

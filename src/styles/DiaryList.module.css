@@ -1,0 +1,151 @@
+.glow_box_purple {
+    position: relative;
+    bottom: 70%;
+    right: -5%;
+    width: 80%;
+    pointer-events: none;
+    z-index: 0;
+    border-radius: 100%;
+    background: linear-gradient(
+      270deg,
+      #7a23a1,
+      #715ebde6 60%,
+      #715ebde6,
+      #bd34fe00
+    );
+    filter: blur(15vw);
+    transform: none;
+    opacity: 0.6;
+    z-index: -100;
+    aspect-ratio: 1.5;
+  }
+  .body {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+  }
+  .glow_box_blue {
+    position: relative;
+    bottom: -5%;
+    left: -20%;
+    width: 80%;
+    aspect-ratio: 1.5;
+    pointer-events: none;
+    z-index: -100;
+    border-radius: 100%;
+    background: linear-gradient(180deg, #61d9ff, #0000);
+    filter: blur(15vw);
+    transform: none;
+    opacity: 0.5;
+  }
+  .ListBox {
+    width: 90%;
+    height: 85%;
+    background-color: rgba(255, 255, 255, 0.283);
+    position: relative;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+  }
+  .Status {
+    width: 95%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.774);
+    margin: 0 auto;
+    position: relative;
+    top: 3%;
+    border-radius: 15px;
+  }
+  .List {
+    width: 95%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.774);
+    margin: 0 auto;
+    position: relative;
+    top: 6%;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+  }
+
+  .List::-webkit-scrollbar {
+    display: none;
+  }
+
+  .loader {
+    border: 5px solid #f3f3f3; 
+    border-top: 5px solid #3498db; 
+    border-radius: 50%; 
+    width: 30px; 
+    height: 30px;
+    animation: spin 1s linear infinite; 
+    z-index: 20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .Link {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .Link>div {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+  }
+
+  .plusButton {
+    width: 70px;
+    height: 70px;
+    background-color: #61d9ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    z-index: 100;
+    top: 92%;
+    left: 95%;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .plusButton:hover {
+    background-color: #61d9ff;
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 4px 0px rgb(183, 183, 183);
+  }
+
+  .statusBox {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(217, 221, 225, 0.542);
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .Status {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
